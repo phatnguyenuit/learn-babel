@@ -1,3 +1,4 @@
-import { sum } from 'lib/math';
+import { commonPlus, commonSubtract } from 'util/common/number';
 
-console.log(sum(1, 2));
+commonPlus(1, 2);
+commonSubtract(10, 5);
