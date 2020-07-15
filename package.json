@@ -14,9 +14,14 @@
     "type": "git",
     "url": "git+https://github.com/phatnguyenuit/learn-babel.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "babel",
+    "jsconfig",
+    "es6",
+    "absolute path"
+  ],
+  "author": "PhatNguyen",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/phatnguyenuit/learn-babel/issues"
   },
