@@ -7,7 +7,7 @@ module.exports = {
     [
       'module-resolver',
       {
-        root: [path.resolve(jsConfig.compilerOptions.baseUrl)],
+        root: [path.resolve(__dirname, jsConfig.compilerOptions.baseUrl)],
       },
     ],
   ],
