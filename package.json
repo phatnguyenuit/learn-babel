@@ -7,7 +7,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "babel src -d dist --copy-files",
+    "build": "babel src -d dist --extensions .ts",
     "dev": "yarn build --verbose --watch"
   },
   "repository": {
@@ -30,6 +30,7 @@
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
+    "@babel/preset-typescript": "^7.16.0",
     "babel-plugin-module-resolver": "^4.0.0"
   }
 }
