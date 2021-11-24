@@ -2,7 +2,7 @@ const path = require('path');
 const tsConfig = require('./tsconfig.json');
 
 module.exports = {
-  presets: ['@babel/preset-env', '@babel/preset-typescript'],
+  presets: ['@babel/preset-typescript'],
   plugins: [
     [
       'module-resolver',

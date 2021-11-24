@@ -1,8 +1,12 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es2016",
-    "baseUrl": "src/"
+    "moduleResolution": "node",
+    "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "target": "esnext",
+    "baseUrl": "src"
   },
   "exclude": ["node_modules"],
   "include": ["src"]
